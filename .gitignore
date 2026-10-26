@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+*/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Android
+GroupChatMobile/android/.gradle/
+GroupChatMobile/android/build/
+GroupChatMobile/android/app/build/
+GroupChatMobile/android/.cxx/
+GroupChatMobile/android/local.properties
+GroupChatMobile/android/*.iml
+*.apk
+*.aab
+
+# iOS
+GroupChatMobile/ios/Pods/
+GroupChatMobile/ios/build/
+GroupChatMobile/ios/DerivedData/
+GroupChatMobile/ios/*.xcworkspace
+GroupChatMobile/ios/*.xcuserdata
+
+# Environment & IDE
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.patch
